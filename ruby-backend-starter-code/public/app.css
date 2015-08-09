@@ -1,0 +1,14 @@
+body h1 {
+  font-family: 'Cinzel', serif;
+}
+body p {
+  font-family: 'Poiret One', cursive;
+}
+.title {
+  text-align: center;
+}
+#search-form {
+  text-align: center;
+}
+
+
