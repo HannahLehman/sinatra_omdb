@@ -9,16 +9,18 @@
   <link rel="stylesheet" type="text/css" href="app.css">
 </head>
 <body>
-  <div class="title content">
+  <div class="content">
     <h1>Welcome to OMDB!</h1>
     <p>Enter a movie title or year to find out more information!</p>
-  </div>
+  
   <!-- Form where user enters search criteria. -->
-  <form action="http://www.omdbapi.com/?" method="GET" class="content" id="search-form">
-    <input type="search" id="s">
-    <button type="button">Search</button>
-  </form>
+    <form action="http://www.omdbapi.com/?" method="GET" class="content" id="search-form">
+      <input type="search" id="s">
+      <button type="button">Search</button>
+    </form>
 
+    <p><a href="/favorites">View Favorites Here</a></p>  
+  </div>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="app.js"></script>
